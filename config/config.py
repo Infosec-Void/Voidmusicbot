@@ -24,7 +24,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Arohixmusic:JIbySfGLqtcgPBMk@cluster0.xnachkv.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://voidmine:voidmine2203@cluster0.l9m20vm.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 720 mins.
 DURATION_LIMIT_MIN = int(
@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6008212311 5801763756").split())
+    map(int, getenv("OWNER_ID", "5417444272 5507132473").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/itz-rishu/MusicBot",
+    "https://github.com/Infosec-Void/Voidmusicbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -66,10 +66,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", ""
-)  # Example:- https://t.me/Crazy_Droid
+)  # Example:- https://t.me/Buddiesforlyf
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", ""
-)  # Example:- https://t.me/BESTIES_ZONE
+)  # Example:- https://t.me/Buddiesforlyf
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -145,12 +145,20 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
-#  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
-#  \ \   / / |  | | |/ / |/ /_   _| |  \/  | |  | |/ ____|_   _/ ____| |  _ \ / __ \__   __|
-#   \ \_/ /| |  | | ' /| ' /  | |   | \  / | |  | | (___   | || |      | |_) | |  | | | |
-#    \   / | |  | |  < |  <   | |   | |\/| | |  | |\___ \  | || |      |  _ <| |  | | | |
-#     | |  | |__| | . \| . \ _| |_  | |  | | |__| |____) |_| || |____  | |_) | |__| | | |
-#     |_|   \____/|_|\_\_|\_\_____| |_|  |_|\____/|_____/|_____\_____| |____/ \____/  |_|
+
+#───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+#─██████──██████─██████████████─██████████─████████████──────██████──────────██████─██████──██████─██████████████─██████████─██████████████─
+#─██░░██──██░░██─██░░░░░░░░░░██─██░░░░░░██─██░░░░░░░░████────██░░██████████████░░██─██░░██──██░░██─██░░░░░░░░░░██─██░░░░░░██─██░░░░░░░░░░██─
+#─██░░██──██░░██─██░░██████░░██─████░░████─██░░████░░░░██────██░░░░░░░░░░░░░░░░░░██─██░░██──██░░██─██░░██████████─████░░████─██░░██████████─
+#─██░░██──██░░██─██░░██──██░░██───██░░██───██░░██──██░░██────██░░██████░░██████░░██─██░░██──██░░██─██░░██───────────██░░██───██░░██─────────
+#─██░░██──██░░██─██░░██──██░░██───██░░██───██░░██──██░░██────██░░██──██░░██──██░░██─██░░██──██░░██─██░░██████████───██░░██───██░░██─────────
+#─██░░██──██░░██─██░░██──██░░██───██░░██───██░░██──██░░██────██░░██──██░░██──██░░██─██░░██──██░░██─██░░░░░░░░░░██───██░░██───██░░██─────────
+#─██░░██──██░░██─██░░██──██░░██───██░░██───██░░██──██░░██────██░░██──██████──██░░██─██░░██──██░░██─██████████░░██───██░░██───██░░██─────────
+#─██░░░░██░░░░██─██░░██──██░░██───██░░██───██░░██──██░░██────██░░██──────────██░░██─██░░██──██░░██─────────██░░██───██░░██───██░░██─────────
+#─████░░░░░░████─██░░██████░░██─████░░████─██░░████░░░░██────██░░██──────────██░░██─██░░██████░░██─██████████░░██─████░░████─██░░██████████─
+#───████░░████───██░░░░░░░░░░██─██░░░░░░██─██░░░░░░░░████────██░░██──────────██░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░██─██░░░░░░░░░░██─
+#─────██████─────██████████████─██████████─████████████──────██████──────────██████─██████████████─██████████████─██████████─██████████████─
+#───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 ### DONT TOUCH or EDIT codes after this line
@@ -172,7 +180,7 @@ START_IMG_URL = getenv("START_IMG_URL", None)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/94f9badecf31b9a855f0a.jpg",
+    "https://i.pinimg.com/originals/6d/79/6d/6d796d3c29a3b6dcc19b7abc56c88bda.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
